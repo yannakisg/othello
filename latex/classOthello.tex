@@ -1,0 +1,133 @@
+\hypertarget{classOthello}{
+\section{Othello Class Reference}
+\label{classOthello}\index{Othello@{Othello}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classOthello_aedd3d416bbfd63c5db02bd9748bd0eff}{
+{\bfseries Othello} (\hyperlink{classPlayer}{Player} $\ast$player1, \hyperlink{classPlayer}{Player} $\ast$player2, \hyperlink{classBoardWidget}{BoardWidget} $\ast$board, bool turn)}
+\label{classOthello_aedd3d416bbfd63c5db02bd9748bd0eff}
+
+\item 
+bool \hyperlink{classOthello_a8c09fac5f811de871610e29584f39223}{allowed} (QList$<$ QPoint $\ast$ $>$ $\ast$, const int, const int)
+\item 
+\hypertarget{classOthello_a485c11d91525c34f77c9c8fae3024466}{
+bool {\bfseries allowed} (const int, const int)}
+\label{classOthello_a485c11d91525c34f77c9c8fae3024466}
+
+\item 
+\hypertarget{classOthello_a28b82c8db09cfaed9744f144c3ea2faa}{
+\hyperlink{classPlayer}{Player} $\ast$ {\bfseries updateBoardTableStateAllowedMoves} (const int, const int)}
+\label{classOthello_a28b82c8db09cfaed9744f144c3ea2faa}
+
+\item 
+\hypertarget{classOthello_a1eb54150dd32e72b0c43b45eecf9b444}{
+\hyperlink{classPlayer}{Player} $\ast$ {\bfseries updateBoardTableStateAllowedMoves} (unsigned char $\ast$$\ast$, QList$<$ QPoint $\ast$ $>$ $\ast$, const int, const int)}
+\label{classOthello_a1eb54150dd32e72b0c43b45eecf9b444}
+
+\item 
+void \hyperlink{classOthello_a1a62eecf0fdeb78c42ff01b4c2029b36}{initializeTableStateAndAllowedMoves} ()
+\item 
+\hypertarget{classOthello_a8f5486f0883f756bbbbe109c76260754}{
+QString $\ast$ {\bfseries getTableState} ()}
+\label{classOthello_a8f5486f0883f756bbbbe109c76260754}
+
+\item 
+\hypertarget{classOthello_a67b6d2582958b5f25d9e3543f0bc57ff}{
+QString $\ast$ {\bfseries getAllowedMoves} ()}
+\label{classOthello_a67b6d2582958b5f25d9e3543f0bc57ff}
+
+\item 
+\hypertarget{classOthello_aea9a935c97157a4266afce2075557e98}{
+int {\bfseries getNextTurn} ()}
+\label{classOthello_aea9a935c97157a4266afce2075557e98}
+
+\item 
+\hypertarget{classOthello_abb31e78fb494eecfb45a7341a67372cc}{
+void {\bfseries setNextTurn} (int t)}
+\label{classOthello_abb31e78fb494eecfb45a7341a67372cc}
+
+\item 
+\hypertarget{classOthello_a4664ebdb1bb2f088804326a05a072ad3}{
+void {\bfseries setTableState} (QString \&state)}
+\label{classOthello_a4664ebdb1bb2f088804326a05a072ad3}
+
+\item 
+\hypertarget{classOthello_ac61e94f44f20a371de28d22897d87e7a}{
+void {\bfseries setAllowedMoves} (QString \&moves)}
+\label{classOthello_ac61e94f44f20a371de28d22897d87e7a}
+
+\item 
+\hypertarget{classOthello_ad3f3fcbb1b0536e1cf70ffd817444f0b}{
+void {\bfseries setMaxDepth} (int depth)}
+\label{classOthello_ad3f3fcbb1b0536e1cf70ffd817444f0b}
+
+\item 
+\hypertarget{classOthello_abd24207cf221ce7928042f7657de41d3}{
+int {\bfseries getMaxDepth} ()}
+\label{classOthello_abd24207cf221ce7928042f7657de41d3}
+
+\item 
+QList$<$ QPoint $\ast$ $>$ $\ast$ \hyperlink{classOthello_a04ed8a5292e35c7f1d270043fd2f6b23}{getAllowed} ()
+\item 
+unsigned char $\ast$$\ast$ \hyperlink{classOthello_aca9c2604072c6f0b49397a1e755237c6}{getState} ()
+\item 
+bool \hyperlink{classOthello_a218e0649bae4dd80ed1619d01fc34e47}{updateAllowedMoves} (QList$<$ QPoint $\ast$ $>$ $\ast$, unsigned char $\ast$$\ast$)
+\item 
+\hypertarget{classOthello_a70c8232810f591fd5be1fefb0865d6a4}{
+bool {\bfseries getP2Turn} ()}
+\label{classOthello_a70c8232810f591fd5be1fefb0865d6a4}
+
+\item 
+\hypertarget{classOthello_ac925385eb8937d57a031613c32ca15a2}{
+void {\bfseries setBoolNextTurn} (bool)}
+\label{classOthello_ac925385eb8937d57a031613c32ca15a2}
+
+\item 
+\hypertarget{classOthello_ae18e2b408adacd42b292d809e07465aa}{
+bool {\bfseries getBoolNextTurn} ()}
+\label{classOthello_ae18e2b408adacd42b292d809e07465aa}
+
+\item 
+void \hyperlink{classOthello_aaabaaf21954db125526e190f9121987d}{updateBoardTableState} (unsigned char $\ast$$\ast$, const int, const int, bool)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classOthello_a8c09fac5f811de871610e29584f39223}{
+\index{Othello@{Othello}!allowed@{allowed}}
+\index{allowed@{allowed}!Othello@{Othello}}
+\subsubsection[{allowed}]{\setlength{\rightskip}{0pt plus 5cm}bool Othello::allowed (QList$<$ QPoint $\ast$ $>$ $\ast$ {\em allowed}, \/  const int {\em i}, \/  const int {\em j})}}
+\label{classOthello_a8c09fac5f811de871610e29584f39223}
+returns true if the move is legitimate else returns false \hypertarget{classOthello_a04ed8a5292e35c7f1d270043fd2f6b23}{
+\index{Othello@{Othello}!getAllowed@{getAllowed}}
+\index{getAllowed@{getAllowed}!Othello@{Othello}}
+\subsubsection[{getAllowed}]{\setlength{\rightskip}{0pt plus 5cm}QList$<$ QPoint $\ast$ $>$ $\ast$ Othello::getAllowed ()}}
+\label{classOthello_a04ed8a5292e35c7f1d270043fd2f6b23}
+Returns the allowed moves list \hypertarget{classOthello_aca9c2604072c6f0b49397a1e755237c6}{
+\index{Othello@{Othello}!getState@{getState}}
+\index{getState@{getState}!Othello@{Othello}}
+\subsubsection[{getState}]{\setlength{\rightskip}{0pt plus 5cm}unsigned char $\ast$$\ast$ Othello::getState ()}}
+\label{classOthello_aca9c2604072c6f0b49397a1e755237c6}
+Returns the state of the table \hypertarget{classOthello_a1a62eecf0fdeb78c42ff01b4c2029b36}{
+\index{Othello@{Othello}!initializeTableStateAndAllowedMoves@{initializeTableStateAndAllowedMoves}}
+\index{initializeTableStateAndAllowedMoves@{initializeTableStateAndAllowedMoves}!Othello@{Othello}}
+\subsubsection[{initializeTableStateAndAllowedMoves}]{\setlength{\rightskip}{0pt plus 5cm}void Othello::initializeTableStateAndAllowedMoves ()}}
+\label{classOthello_a1a62eecf0fdeb78c42ff01b4c2029b36}
+initialiazes the tableState array and the allowedMoves array. in the tableState array, empty/green = 0, black = 1, white = 2 in the allowedMoves array, not legitimate move = false, legitimate move = true \hypertarget{classOthello_a218e0649bae4dd80ed1619d01fc34e47}{
+\index{Othello@{Othello}!updateAllowedMoves@{updateAllowedMoves}}
+\index{updateAllowedMoves@{updateAllowedMoves}!Othello@{Othello}}
+\subsubsection[{updateAllowedMoves}]{\setlength{\rightskip}{0pt plus 5cm}bool Othello::updateAllowedMoves (QList$<$ QPoint $\ast$ $>$ $\ast$ {\em allowed}, \/  unsigned char $\ast$$\ast$ {\em state})}}
+\label{classOthello_a218e0649bae4dd80ed1619d01fc34e47}
+Updates the allowed moves. Returns true if there are available moves Returns false if there are no available moves allowed Moves are stored in the argument list(allowed) \hypertarget{classOthello_aaabaaf21954db125526e190f9121987d}{
+\index{Othello@{Othello}!updateBoardTableState@{updateBoardTableState}}
+\index{updateBoardTableState@{updateBoardTableState}!Othello@{Othello}}
+\subsubsection[{updateBoardTableState}]{\setlength{\rightskip}{0pt plus 5cm}void Othello::updateBoardTableState (unsigned char $\ast$$\ast$ {\em state}, \/  const int {\em i}, \/  const int {\em j}, \/  bool {\em changeIcons})}}
+\label{classOthello_aaabaaf21954db125526e190f9121987d}
+updates the board and the tableState array, with the move at (i,j) 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+othello.h\item 
+othello.cpp\end{DoxyCompactItemize}
